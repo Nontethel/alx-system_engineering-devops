@@ -1,1 +1,1 @@
-permitions
+readme file
