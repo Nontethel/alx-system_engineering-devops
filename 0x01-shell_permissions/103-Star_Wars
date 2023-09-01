@@ -1,1 +1,2 @@
-chmod +x <script_name>
+#!/bin/bash
+telnet towel.blinkenlights.nl
