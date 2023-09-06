@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=bestchol | $((64#${WATER} + 64#${STIR}))" | bc
+echo "obase=bestchol $((64#${WATER} + 64#${STIR}))" | bc
