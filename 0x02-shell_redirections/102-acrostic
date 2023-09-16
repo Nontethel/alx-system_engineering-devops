@@ -1,3 +1,24 @@
-#!/bin/bash
-cut -c 1 | paste -s -d ''
+acrostic_text = """Elizabeth it is in vain you say
+Love not - thou canst not - dost not - adieu!
 
+In youth I loved thee with a love sincere
+A love more calm and deep than word or tear
+
+Now, woman's fleeting joys are overpaid
+And as they fly their splendor fades away
+
+While yet my brow was free from guilty shade
+Thy blushing cheek bespoke thee not of clay
+"""
+
+lines = acrostic_text.split('\n')
+
+decoded_message = ""
+
+for line in lines:
+	if len(line) > 0:
+		first_print(decoded_message)letter = line(0)
+		decoded_message += first_letter
+
+decoded_message += '\n'
+print(decoded_message)
